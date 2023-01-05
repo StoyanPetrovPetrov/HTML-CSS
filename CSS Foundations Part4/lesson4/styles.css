@@ -107,3 +107,26 @@ a:active{
 #paragraph1 {
     clear: right;
 }
+/*CSS Positioning*/
+
+#container{
+    position: relative;
+}
+
+.box{
+    background: #db4e4e;
+    color: white;
+    height: 150px;
+    width: 150px;
+    margin: 20px 0;
+}
+#relative-box{
+    position: relative;
+    top: 30px;
+    left: -70px;
+}
+#absolut-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
